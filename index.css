@@ -1,0 +1,330 @@
+@import 'bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+body.dark {
+  background-color: #16181e;
+  transition: all 0.5s ease;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50rem;
+}
+body.ligth {
+  background-color: #620ea3;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50rem;
+}
+
+body {
+  background-color: rgb(241, 253, 255);
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 20rem;
+}
+
+.modo-dark {
+  background-color: #040711;
+  transition: all 0.5s ease;
+
+}
+
+#label_toggle {
+  position: absolute;
+    top: 29px;
+    right: 59px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#toggle {
+  display: none;
+}
+
+.caarrito-po {
+  position: relative;
+    top: 1rem;
+}
+
+li {
+    font-family:fantasy
+}
+.titulo-noso span {
+    color: #0a0e0b;
+    width: 30px;
+}
+
+.nosotros-iconos {
+    margin: 3em 0;
+}
+
+.nosotros-iconos i {
+    margin-right: 0.8em;
+    padding: 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+.nosotros-iconos li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.nosotros-imagen{
+  width: 40rem;
+  height: 20px;
+  align-content: center;
+
+}
+/* Carrito */
+
+.tarjetas img {
+    width: 80px;
+    margin: 5px 55px;
+}
+
+.posicion-car {
+  top: 1rem;
+  color: black;
+}
+.color-carrrito {
+  color: rgb(0, 0, 0);
+}
+
+.padding-nb.navbar {
+    border-bottom: 3px solid rgb(0, 0, 0) ;
+    background-color: #e990e9;
+}
+
+.alta-m {
+  margin-left: 10rem;
+}
+
+.fondo.bg-body-tertiary {
+    background-color: #696464;
+}
+
+.margin-le {
+    margin-left: 2em;
+    margin-top: 2rem;
+}
+
+.margin-lr.nav-link {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.tamano.card-img-top {
+    
+    margin: 15px;
+}
+
+.style-fo {
+    background-color: #de67c8;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconos-fo {
+    background-color: #E4EFE7;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    
+}
+
+i {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+
+hr {
+    height: 2px;
+    width: 50%;
+    background-color: #000000;
+    margin: 0;
+    margin-left: 38rem;
+    margin-right: 38rem;
+  }
+
+  .img-log {
+    height: 80px;
+    width: 100px;
+    justify-content: center;
+    
+  }
+.vale-lo{
+  height: 80px;
+  width: 100px;
+
+}
+
+  footer {
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0em;
+  }
+
+  .precio-.list-group-item {
+    color: #a7bf47;
+    font-size: 25px;
+  }
+
+  .back-btn.btn {
+    background-color: #e7ad83;
+    border: 2px solid #83e79e;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 30px;
+   
+  }
+
+  .color-card.card {
+    border-radius: 10px;
+    border: 1px solid #e783da;
+  }
+
+  .back-noso.col-7 {
+    background-color: #ea88d1;
+    padding-inline: 8rem;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    border: 3px solid #98191900;
+    border-radius: 10px
+    
+    
+  }
+
+  .img-noso.img-fluid {
+    width: 800px;
+    height: 25rem;
+    border-radius: 4rem;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+    background-color: #ea88d1;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #98191900;
+
+    
+   
+  }
+
+  .font-p {
+    font-size: 26px;
+    align-items: center;
+    align-self: start;
+    border-radius: 10px;
+    color: darkred;
+    font-family: cursive;
+  }
+
+  .estilo-bo.nav-link {
+    border-bottom: 2px solid ;
+  }
+
+  
+
+  .bag-card.card-body {
+    background-color: #bd1240;
+  }
+
+  .bag-carrito.card-header.card-header {
+    background-color: #ea5a98;
+  }
+
+  .bag-li.list-group-item {
+    background-color: rgb(205, 82, 150);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+  }
+
+  .btn-eliminar.btn {
+    background-color: #ff0000;
+    height: 2rem;
+  }
+
+  .form-style {
+    margin: 15rem 15rem;
+    border: 7px solid;
+    border-radius: 1rem;
+    padding: 40px;
+    box-shadow: -6px 8px 20px 0px;
+}
+  
+
+  .btn-div {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .btn-co.btn-primary {
+    background-color: #9f83e7;
+    border: 1px solid #0ca735;
+    color: black;
+  }
+
+  .btn-border {
+    border: 0;
+  }
+
+  .btn-submit.btn-co.btn-primary {
+    background-color: #c783e7;
+    border: 1px solid #e783e5;
+    color: black;
+    margin: 20px;
+    padding: 1rem 7rem;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+  .btn-co.btn-danger {
+    background-color: #83e79e;
+    border: 1px solid #83e79e;
+    color: black;
+  }
+  
+
+  .strong-pago {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .envio {
+    color: #a54999;
+  }
+  .icon-color {
+    color: #a54969;
+  }
+
+  .bag-pagos.tarjetas {
+    background-color: #ea88d1;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #98191900;
+    border-radius: 10px;
+  }
+
+
+.ancho-con{
+  background-color: #ec94d6;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #98196900;
+    border-radius: 6px;
+  
+}
+.im-c{
+ 
+  justify-content: center;
+  padding-top: 3px;
+  padding-left: 5px;
+  
+}
